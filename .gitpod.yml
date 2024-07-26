@@ -7,6 +7,8 @@ vscode:
     - vscjava.vscode-java-test
     - redhat.java
 
+    - vscjava.vscode-maven
+
 tasks:
   - name: java project build with maven
     before: |
@@ -17,4 +19,3 @@ tasks:
       mvn install -DskipTests=false
     command: |
       mvn compile
-
